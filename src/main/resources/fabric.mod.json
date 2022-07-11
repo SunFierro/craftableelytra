@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "craftableelytra",
+  "version": "1.0.0",
+  "name": "Craftable Elytra",
+  "authors": [
+    "idk, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sunfierro.craftableelytra.CraftableelytraMod"
+    ],
+    "client": [
+      "net.sunfierro.craftableelytra.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "accessWidener": "modid.accesswidener"
+}
